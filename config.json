@@ -1,0 +1,7 @@
+{
+    "port": 8080,
+    "max_threads": 50,
+    "storage_path": "./storage",
+    "log_limit": 200,
+    "theme": "hacker"
+}
