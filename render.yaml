@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: burp-php-proxy
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: PORT
+        value: 80
